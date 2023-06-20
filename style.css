@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.main_container {
+    background-color: #f0f2f5;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    width: 695px;
+    height: 345px;
+    /* background-color: aquamarine; */
+    /* margin:  auto; */
+}
+
+.logo_moto {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* background-color: blanchedalmond; */
+    height: 180px;
+    width: 340px;
+}
+
+.logoImage {
+    width: 205px;
+}
+
+.moto {
+    padding-left: 25px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.logInForm {
+    /* background-color: cadetblue; */
+    height: 345px;
+    width: 285px;
+    padding-top: 10px;
+}
+form{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6px;
+}
+.dataInput{
+    width: 240px;
+    height: 35px;
+    padding-left: 10px;
+    margin: 5px;
+    border-radius: 6px;
+    border-width: 0.2px;
+}
+.LogIn_button{
+    background-color: #1877f2;
+    color: white;
+    font-weight: bold;
+    width: 255px;
+    height: 35px;
+    /* padding-left: 10px; */
+    margin: 5px;
+    border: 1px solid #1877f2;
+    border-radius: 6px;
+}
+.forgotten_password{
+    text-decoration: none;
+    color: #1877f2;
+    font-size: 10px;
+    margin: 10px 0 15px 0;
+}
+/* .h{
+    height: 1px;
+    width: auto;
+    margin: auto;
+    background-color: black;
+} */
+.create_button{
+    background-color: #42b72a;
+    color: white;
+    /* font-weight: bold; */
+    width: 125px;
+    height: 24px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    border-radius: 6px;
+    text-align: center;
+    font-size: 10px;
+}
+.c_page{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+}
+.c_page_line{
+    color: inherit;
+    text-align: center;
+    font-size: 10px;
+    margin-top: 20px;
+}
